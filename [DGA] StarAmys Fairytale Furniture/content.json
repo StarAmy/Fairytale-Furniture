@@ -266,4 +266,76 @@
          "Value": "staramy.fairytalefurniture/Fairy Door"
       }
    },
+      {
+      "$ItemType": "Furniture",
+      "ID": "Single Enchanted Butterfly Bed",
+      "Type": "Bed",
+      "BedType": "Single",
+      "Configurations": [
+         {
+            "Texture": "assets/single_pink_bed.png:0 ",
+            "FrontTexture": "assets/single_pink_bed.png:1",
+            "DisplaySize": { "X": 2, "Y": 4 },
+            "CollisionHeight": 3
+         },
+      ]
+   }, 
+   {
+      "$ItemType": "ShopEntry",
+      "ShopId": "Carpenter",
+      "Cost": 600,
+      "Item":  
+      {
+         "Type": "DGAItem",
+         "Value": "staramy.cozyrustic/Single Enchanted Butterfly Bed"
+      }
+   },
+   {
+      "$ItemType": "Furniture",
+      "ID": "Single Enchanted Plant Bed",
+      "Type": "Bed",
+      "BedType": "Single",
+      "Configurations": [
+         {
+            "Texture": "assets/single_green_bed.png:0 ",
+            "FrontTexture": "assets/single_green_bed.png:1",
+            "DisplaySize": { "X": 2, "Y": 4 },
+            "CollisionHeight": 3
+         },
+      ]
+   }, 
+   {
+      "$ItemType": "ShopEntry",
+      "ShopId": "Carpenter",
+      "Cost": 600,
+      "Item":  
+      {
+         "Type": "DGAItem",
+         "Value": "staramy.cozyrustic/Single Enchanted Plant Bed"
+      }
+   },
+   {
+      "$ItemType": "Furniture",
+      "ID": "Single Enchanted Witchy Bed",
+      "Type": "Bed",
+      "BedType": "Single",
+      "Configurations": [
+         {
+            "Texture": "assets/single_purple_bed.png:0 ",
+            "FrontTexture": "assets/single_purple_bed.png:1",
+            "DisplaySize": { "X": 2, "Y": 4 },
+            "CollisionHeight": 3
+         },
+      ]
+   }, 
+   {
+      "$ItemType": "ShopEntry",
+      "ShopId": "Carpenter",
+      "Cost": 600,
+      "Item":  
+      {
+         "Type": "DGAItem",
+         "Value": "staramy.cozyrustic/Single Enchanted Witchy Bed"
+      }
+   },
 ]
