@@ -287,7 +287,7 @@
       "Item":  
       {
          "Type": "DGAItem",
-         "Value": "staramy.cozyrustic/Single Enchanted Butterfly Bed"
+         "Value": "staramy.fairytalefurniture/Single Enchanted Butterfly Bed"
       }
    },
    {
@@ -311,7 +311,7 @@
       "Item":  
       {
          "Type": "DGAItem",
-         "Value": "staramy.cozyrustic/Single Enchanted Plant Bed"
+         "Value": "staramy.fairytalefurniture/Single Enchanted Plant Bed"
       }
    },
    {
@@ -335,7 +335,7 @@
       "Item":  
       {
          "Type": "DGAItem",
-         "Value": "staramy.cozyrustic/Single Enchanted Witchy Bed"
+         "Value": "staramy.fairytalefurniture/Single Enchanted Witchy Bed"
       }
    },
 ]
