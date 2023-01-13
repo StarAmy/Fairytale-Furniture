@@ -266,6 +266,99 @@
          "Value": "staramy.fairytalefurniture/Fairy Door"
       }
    },
+   {
+      "$ItemType": "Furniture",
+      "ID": "Enchanted Mirror",
+      "Type": "Painting",
+      "Configurations": [
+         {
+            "Texture": "assets/mirror.png:0@200, assets/mirror.png:1@50, assets/mirror.png:2@200, assets/mirror.png:1@50",
+            "DisplaySize": { "X": 2, "Y": 3 },
+            "CollisionHeight": 3
+         },
+      ]
+   }, 
+   {
+      "$ItemType": "ShopEntry",
+      "ShopId": "Carpenter",
+      "Cost": 1200,
+      "Item":  
+      {
+         "Type": "DGAItem",
+         "Value": "staramy.fairytalefurniture/Enchanted Mirror"
+      }
+   },
+   {
+      "$ItemType": "Furniture",
+      "ID": "Enchanted Hearth",
+      "Type": "Fireplace",
+      "Configurations": [
+         {
+            "Texture": "assets/hearth.png",
+            "DisplaySize": { "X": 2, "Y": 5 },
+            "CollisionHeight": 1
+         }
+      ]
+   }, 
+   {
+      "$ItemType": "ShopEntry",
+      "ShopId": "Carpenter",
+      "MaxSold": 10,
+      "Cost": 1200,
+      "Item":  
+      {
+         "Type": "DGAItem",
+         "Value": "staramy.fairytalefurniture/Enchanted Hearth"
+      }
+   },
+   {
+      "$ItemType": "Furniture",
+      "ID": "Fairy Tree House",
+      "Type": "Lamp",
+      "Configurations": [
+         {
+            "Texture": "assets/fairy_tree.png:0@20, assets/fairy_tree.png:1@20, assets/fairy_tree.png:2@20, assets/fairy_tree.png:1@20",
+            "NightTexture": "assets/fairy_tree.png:3@400, assets/fairy_tree.png:4@12, assets/fairy_tree.png:5@40, assets/fairy_tree.png:4@12",
+            "DisplaySize": { "X": 5, "Y": 7 },
+            "CollisionHeight": 1
+         }
+      ]
+   }, 
+   {
+      "$ItemType": "ShopEntry",
+      "ShopId": "Carpenter",
+      "MaxSold": 10,
+      "Cost": 1600,
+      "Item":  
+      {
+         "Type": "DGAItem",
+         "Value": "staramy.fairytalefurniture/Fairy Tree House"
+      }
+   },
+   {
+      "$ItemType": "Furniture",
+      "ID": "Fairy Tea Party",
+      "Type": "Fireplace",
+      "Configurations": [
+         {
+            "Texture": "assets/fairy_ring.png:0@20, assets/fairy_ring.png:1@20, assets/fairy_ring.png:2@20, assets/fairy_ring.png:3@20",
+            "NightTexture": "assets/fairy_ring.png:4",
+            "DisplaySize": { "X": 3, "Y": 3 },
+            "CollisionHeight": 3
+         }
+      ]
+   }, 
+   {
+      "$ItemType": "ShopEntry",
+      "ShopId": "Carpenter",
+      "MaxSold": 10,
+      "Cost": 600,
+      "Item":  
+      {
+         "Type": "DGAItem",
+         "Value": "staramy.fairytalefurniture/Fairy Tea Party"
+      }
+   },
       {
       "$ItemType": "Furniture",
       "ID": "Single Enchanted Butterfly Bed",
@@ -338,4 +431,5 @@
          "Value": "staramy.fairytalefurniture/Single Enchanted Witchy Bed"
       }
    },
+   
 ]
